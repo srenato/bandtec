@@ -1,0 +1,637 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width: 100%;
+	background-color: #094a87;
+	margin: 0 auto;
+}
+main {
+	width: 1024px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.degradegeral {
+	background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #1E74A6), color-stop(0.73, #1883AD) );
+	background-image: -o-linear-gradient(bottom, #1E74A6 0%, #1883AD 73%);
+	background-image: -moz-linear-gradient(bottom, #1E74A6 0%, #1883AD 73%);
+	background-image: -webkit-linear-gradient(bottom, #1E74A6 0%, #1883AD 73%);
+	background-image: -ms-linear-gradient(bottom, #1E74A6 0%, #1883AD 73%);
+	background-image: linear-gradient(to bottom, #1E74A6 0%, #1883AD 73%);
+}
+header {
+	padding: 10px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.degradeslide {
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, #18658F), color-stop(1, #F5F5F5) );
+	background-image: -o-linear-gradient(top, #18658F 0%, #F5F5F5 100%);
+	background-image: -moz-linear-gradient(top, #18658F 0%, #F5F5F5 100%);
+	background-image: -webkit-linear-gradient(top, #18658F 0%, #F5F5F5 100%);
+	background-image: -ms-linear-gradient(top, #18658F 0%, #F5F5F5 100%);
+	background-image: linear-gradient(to top, #18658F 0%, #F5F5F5 100%);
+}
+.cabeçalho {
+	width: 900px;
+	height: 300px;
+	margin: auto auto;
+	background-color: #1AE3DF;
+	margin-left: 3em;
+	border-radius: 6px;
+}
+.bannercabeçalho {
+	width: 900px;
+	height: 125px;
+	margin: 0 auto;
+	background:url(imagens/banner%20bone%20email%20.jpg);
+	background-color: #1AE3DF;
+	border-radius: 6px;
+	text-align: center;
+	font-size: 32px;
+}
+.navindex {
+	width: 164px;
+	float: left;
+	height: 956px;
+	text-align: center;
+}
+.navgeral {
+	width: 164px;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+}
+.caixamenu {
+	width: 100%;
+	min-height: 300px;
+	overflow:hidden;
+}
+.imgnav {
+	width: 150px;
+	background-color: #1e75a6;
+	height: 60px;
+	margin: 30px 10px;
+	text-align: center;
+}
+.imgmenu {
+	width: 150px;
+	background-color: #1e75a6;
+	height: 60px;
+	text-align: center;
+}
+.menu {
+	list-style-type: none;
+	position: relative;
+	left: -17px;
+}
+.menu>li {
+	float: none;
+	padding-right: 5px;
+}
+.menu li a:link {
+	display: block;
+	font-size: 1.4em;
+	font-weight: bolder;
+	text-decoration: none;
+	color: #FFFFFF;
+	height: 40px;
+	line-height: 1.4em;
+	margin-bottom: 10px;
+	border-radius: 25px;
+	background-color: #56B6E5;
+	box-shadow: 3px 2px 2px 0 #fff;
+	font-family: 'Marvel', sans-serif;
+	width: 123px
+}
+.menu li a:visited {
+	color: #FFFFFF;
+}
+.menu li a:hover {
+	background-color: #1A4798;
+}
+/* inicio menu coleções*/
+.caixamenucolecoes {
+	width: 100%;
+	height: 250px;
+}
+.menucolecoes {
+	list-style-type: none;
+	position: relative;
+	left: -17px;
+}
+.menucolecoes li {
+	float: none;
+	padding-right: 5px;
+}
+.menucolecoes li a:link {
+	display: block;
+	font-size: 1.4em;
+	font-weight: bolder;
+	text-decoration: none;
+	color: #FFFFFF;
+	height: 40px;
+	line-height: 1.4em;
+	margin-bottom: 10px;
+	border-radius: 25px;
+	background-color: #56B6E5;
+	box-shadow: 3px 2px 2px 0 #fff;
+	font-family: 'Marvel', sans-serif;
+	width: 123px
+}
+.menucolecoes li a:visited {
+	color: #FFFFFF;
+}
+.menucolecoes li a:hover {
+	background-color: #1A4798;
+}
+/* inicio menu categoria*/
+.caixamenucategoria {
+	width: 100%;
+	height: 400px;
+}
+.menucategoria {
+	list-style-type: none;
+	position: relative;
+	left: -17px;
+}
+.menucategoria li {
+	float: none;
+	padding-right: 5px;
+}
+.menucategoria li a:link {
+	display: block;
+	font-size: 1.4em;
+	font-weight: bolder;
+	text-decoration: none;
+	color: #FFFFFF;
+	height: 40px;
+	line-height: 1.4em;
+	margin-bottom: 10px;
+	border-radius: 25px;
+	background-color: #56B6E5;
+	box-shadow: 3px 2px 2px 0 #fff;
+	font-family: 'Marvel', sans-serif;
+	width: 123px
+}
+.menucategoria li a:visited {
+	color: #FFFFFF;
+}
+.menucategoria li a:hover {
+	background-color: #1A4798;
+}
+section {
+	width: 860px;
+	overflow: hidden;
+	float: left;
+	background-color: #1e75a6;
+	text-align: center;
+}
+.anucioprincipal {
+	width: 842px;
+	height: 55px;
+	float: left;
+	margin: 5px 5px 5px 7px;
+	text-align: center;
+}
+.categoriaprodutos {
+	width: 276px;
+	height: 276px;
+	float: left;
+	background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #337D96), color-stop(1, #47DEDE) );
+	background-image: -o-linear-gradient(bottom, #337D96 0%, #47DEDE 100%);
+	background-image: -moz-linear-gradient(bottom, #337D96 0%, #47DEDE 100%);
+	background-image: -webkit-linear-gradient(bottom, #337D96 0%, #47DEDE 100%);
+	background-image: -ms-linear-gradient(bottom, #337D96 0%, #47DEDE 100%);
+	background-image: linear-gradient(to bottom, #337D96 0%, #47DEDE 100%);
+	margin: 5px 0 5px 7px;
+}
+.categoriaprodutos img {
+	width: 100%;
+	height: 100%;
+}
+section a:hover {
+	background-color: #B7B3B3;
+}
+footer {
+	width: 860px;
+	overflow: hidden;
+	float: right;
+	text-align: center;
+	margin:10px auto;
+	padding-top:30px;
+}
+.caixarodape {
+	position: relative;
+	width: 162px;
+	height: 195px;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+}
+.caixarodape a {
+	text-decoration: none;
+}
+/* tamanho das img do footer*/
+.rodape {
+	width: 48px;
+	height: 58px;
+	margin: 3px auto;
+}
+.menurodape li a:link {
+	display: block;
+	text-decoration: none;
+	color: #FFFFFF;
+	border-radius: 10px;
+	font-family: 'Marvel', sans-serif;
+}
+.menurodape {
+	margin: 0 auto;
+	list-style-type: none;
+}
+.menurodape li a:visited {
+	color: #FFFFFF;
+}
+.menurodape li a:hover {
+	background-color: #4E709A;
+}
+.creditos {
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+h1, h2, h3,strong {
+	color: #F7F7F7;
+	font-family: 'Marvel', sans-serif;
+	margin: 0 auto;
+	padding-bottom:5px;
+}
+p {
+	color: #F7F7F7;
+	font-family: 'Marvel', sans-serif;
+}
+/*inicio css para zoom na pagina de detalhes*/
+
+.detalhe_produto {
+	width: 390px;
+	height: 455px;
+	float: right;
+	text-align: center;
+	font-size: 26px;
+	border: white solid 1px;
+	padding-top: 25px;
+}
+.zoom {
+	display: inline-block;
+	position: relative;
+	margin: 5px 5px 5px 7px;
+}
+.zoom:after {
+	content: '';
+	display: block;
+	width: 33px;
+	height: 33px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(icon.png) repeat;
+}
+.zoom img {
+	display: block;
+}
+.zoom img::selection {
+	background-color: transparent;
+}
+.header {
+	margin: 10px auto;
+}
+.footer {
+	width: 100%;
+	float: left;
+	margin: 0;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.caixafooter {
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding-top: 70px;
+	overflow: hidden;
+}
+.caixafooter_mapa {
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+}
+
+/*
+ *  inicio css slide
+ *	template Graffito
+ */
+
+
+* html #wowslider-container1 {
+	width: 900px
+}
+#wowslider-container1 .ws_images ul {
+	position: relative;
+	width: 10000%;
+	height: auto;
+	left: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-spacing: 0;
+	overflow: visible;/*table-layout:fixed;*/
+}
+#wowslider-container1 .ws_images ul li {
+	width: 1%;
+	line-height: 0; /*opera*/
+	float: left;
+	font-size: 0;
+	padding: 0 0 0 0 !important;
+	margin: 0 0 0 0 !important;
+}
+#wowslider-container1 .ws_images {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#wowslider-container1 .ws_images a {
+	width: 100%;
+	display: block;
+	color: transparent;
+}
+#wowslider-container1 img {
+	max-width: none !important;
+}
+#wowslider-container1 .ws_images img {
+	width: 100%;
+	border: none 0;
+	max-width: none;
+	padding: 0;
+	margin: 0;
+}
+#wowslider-container1 a {
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
+#wowslider-container1 .ws_bullets {
+	font-size: 0px;
+	float: left;
+	position: absolute;
+	z-index: 70;
+}
+#wowslider-container1 .ws_bullets div {
+	position: relative;
+	float: left;
+}
+#wowslider-container1 .wsl {
+	display: none;
+}
+#wowslider-container1 sound, #wowslider-container1 object {
+	position: absolute;
+}
+#wowslider-container1 .ws_photoItem {
+	border: 2em solid #fff;
+	margin-left: -2em;
+	margin-top: -2em;
+}
+#wowslider-container1 .ws_bullets {
+	padding: 5px 0;
+}
+#wowslider-container1 .ws_bullets a {
+	width: 20px;
+	height: 20px;
+	background-image: url(./bullet.png);
+	float: left;
+	text-indent: -4000px;
+	position: relative;
+	margin-left: 0px;
+	color: transparent;
+	background-size: 100%;
+}
+#wowslider-container1 .ws_bullets a:hover, #wowslider-container1 .ws_bullets a.ws_selbull {
+	background-position: 0 100%;
+}
+#wowslider-container1 a.ws_next, #wowslider-container1 a.ws_prev {
+	position: absolute;
+	display: none;
+	top: 50%;
+	margin-top: -1.1em;
+	z-index: 60;
+	width: 2.2em;
+	height: 2.2em;
+	background-image: url(./arrows.png);
+	background-size: 200%;
+	opacity: 0.7;
+}
+#wowslider-container1 a.ws_next {
+	background-position: 0 0;
+	right: 10px;
+}
+#wowslider-container1 a.ws_prev {
+	background-position: 100% 0;
+	left: 10px;
+}
+#wowslider-container1 a.ws_next:hover {
+	background-position: 0 100%;
+	opacity: 1;
+}
+#wowslider-container1 a.ws_prev:hover {
+	background-position: 100% 100%;
+	opacity: 1;
+}
+* html #wowslider-container1 a.ws_next, * html #wowslider-container1 a.ws_prev {
+	display: block
+}
+#wowslider-container1:hover a.ws_next, #wowslider-container1:hover a.ws_prev {
+	display: block
+}
+/*playpause*/
+#wowslider-container1 .ws_playpause {
+	display: none;
+	width: 2.4em;
+	height: 2.4em;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -1.2em;
+	margin-top: -1.2em;
+	z-index: 59;
+	background-size: 100%;
+	opacity: 0.5;
+}
+#wowslider-container1:hover .ws_playpause {
+	display: block;
+}
+#wowslider-container1 .ws_pause {
+	background-image: url(./pause.png);
+	background-position: 0 0;
+	opacity: 0.5;
+}
+#wowslider-container1 .ws_play {
+	background-image: url(./play.png);
+	background-position: 0 0;
+	opacity: 0.5;
+}
+#wowslider-container1 .ws_pause:hover {
+	background-position: 0 100%;
+	opacity: 1;
+}
+#wowslider-container1 .ws_play:hover {
+	background-position: 0 100%;
+	opacity: 1;
+}
+#wowslider-container1, #wowslider-container1 .ws_effect, #wowslider-container1 .ws_images img {
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}/* bottom right */
+#wowslider-container1 .ws_bullets {
+	bottom: 0px;
+	left: 50%;
+}
+#wowslider-container1 .ws_bullets div {
+	left: -50%;
+}
+#wowslider-container1 .ws-title {
+	position: absolute;
+	display: block;
+	bottom: 2em;
+	left: 0;
+	margin-right: 1em;
+	padding: 1em;
+	padding-left: 3em;
+	z-index: 50;
+	font-family: 'Averia Sans Libre', cursive;
+	line-height: 2.7em;
+	text-transform: none;
+	opacity: 1;
+	text-shadow: .2em .2em .5em #000;
+}
+#wowslider-container1 .ws-title div {
+	padding-top: 0.15em;
+	font-size: 2.8em;
+	color: #fff;
+}
+#wowslider-container1 .ws-title span {
+	font-size: 2em;
+	color: #DDF16E;
+}
+#wowslider-container1 .ws_images ul {
+	animation: wsBasic 12s infinite;
+	-moz-animation: wsBasic 12s infinite;
+	-webkit-animation: wsBasic 12s infinite;
+}
+@keyframes wsBasic {
+0% {
+left:-0%
+}
+16.67% {
+left:-0%
+}
+33.33% {
+left:-100%
+}
+50% {
+left:-100%
+}
+66.67% {
+left:-200%
+}
+83.33% {
+left:-200%
+}
+}
+@-moz-keyframes wsBasic {
+0% {
+left:-0%
+}
+16.67% {
+left:-0%
+}
+33.33% {
+left:-100%
+}
+50% {
+left:-100%
+}
+66.67% {
+left:-200%
+}
+83.33% {
+left:-200%
+}
+}
+@-webkit-keyframes wsBasic {
+0% {
+left:-0%
+}
+16.67% {
+left:-0%
+}
+33.33% {
+left:-100%
+}
+50% {
+left:-100%
+}
+66.67% {
+left:-200%
+}
+83.33% {
+left:-200%
+}
+}
+#wowslider-container1 .ws_bullets a img {
+	text-indent: 0;
+	display: block;
+	bottom: 20px;
+	left: -72px;
+	visibility: hidden;
+	position: absolute;
+	border: 4px solid #FFFFFF;
+	max-width: none;
+}
+#wowslider-container1 .ws_bullets a:hover img {
+	visibility: visible;
+}
+#wowslider-container1 .ws_bulframe div div {
+	height: 48px;
+	overflow: visible;
+	position: relative;
+}
+#wowslider-container1 .ws_bulframe div {
+	left: 0;
+	overflow: hidden;
+	position: relative;
+	width: 144px;
+	background-color: #FFFFFF;
+}
+#wowslider-container1 .ws_bullets .ws_bulframe {
+	display: none;
+	bottom: 26px;
+	overflow: visible;
+	position: absolute;
+	cursor: pointer;
+	border: 4px solid rgba(0,0,0,0.5);
+}
+#wowslider-container1 .ws_bulframe span {
+	display: block;
+	position: absolute;
+	bottom: -11px;
+	margin-left: -1px;
+	left: 72px;
+	background: url(./triangle.png);
+	width: 13px;
+	height: 7px;
+}

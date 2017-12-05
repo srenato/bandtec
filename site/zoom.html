@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>Zoom em imagem</title>
+	<style>
+.zoom {
+	display: inline-block;
+	position: relative;
+}
+.zoom:after {
+	content: '';
+	display: block;
+	width: 33px;
+	height: 33px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url(icon.png);
+}
+.zoom img {
+	display: block;
+}
+.zoom img::selection {
+	background-color: transparent;
+}
+</style>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="jquery.zoom.js"></script>
+	</head>
+
+	<body>
+</body>
+	<p>Passe o mouse para ampliar a imagem</p>
+	<span class="zoom" id="foto1"><img src="gato.jpg" width="400" height="300" alt="Gatão!!!"></span><span class="zoom" id="foto2"><img src="gato-branco.jpg" width="400" height="300" alt="Outro gatão!!!"></span>
+	<script type="text/javascript">
+$(document).ready(function(){
+  $('img')
+    .wrap('<span style="display:inline-block"></span>')
+    .css('display', 'block')
+    .parent()
+    .zoom();
+});
+
+</script>
+</html>
